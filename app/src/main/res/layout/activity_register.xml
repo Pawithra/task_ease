@@ -11,7 +11,7 @@
 
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -22,10 +22,11 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextRegRePassword"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextRegPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextRegPassword"
+        tools:ignore="DuplicateIds" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -36,7 +37,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextRegPassword"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextRegEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextRegEmail"
+        tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/textView4"
@@ -52,7 +54,8 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextRegEmail"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextRegUsername"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="DuplicateIds" />
 
     <EditText
         android:id="@+id/editTextRegPassword"
@@ -247,7 +250,8 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextRegUsername"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="DuplicateIds" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
