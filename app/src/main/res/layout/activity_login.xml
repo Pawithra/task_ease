@@ -140,7 +140,7 @@
         android:text="Sign up"
         android:textColor="#101B4B"
         android:textColorHighlight="#101B4B"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
